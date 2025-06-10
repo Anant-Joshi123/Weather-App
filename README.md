@@ -36,3 +36,19 @@ npm install
 # Start the development server
 npm run dev
 
+---
+
+```markdown
+## 🔑 API Key Setup
+
+To use the weather API, follow these steps:
+
+1. Go to [https://openweathermap.org/api](https://openweathermap.org/api)
+2. Sign up or log in to your account.
+3. Visit [API Keys Dashboard](https://home.openweathermap.org/api_keys)
+4. Copy your default API key or create a new one.
+5. Create a `.env` file in the root of your project and add the following:
+
+```env
+VITE_WEATHER_API_KEY=your_api_key_here
+
